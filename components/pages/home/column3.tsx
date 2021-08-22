@@ -1,6 +1,6 @@
 import IqChart from "~/components/others/charts/iq-chart"
 
-const Row1Home = () => {
+const Column3Home = () => {
 
     return (
         <div className="col-lg-12">
@@ -65,4 +65,4 @@ const Row1Home = () => {
     )
 }
 
-export default Row1Home
+export default Column3Home

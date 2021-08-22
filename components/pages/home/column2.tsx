@@ -1,6 +1,6 @@
 import PercentageCard from "~/components/others/cards/percentage-card"
 
-const Row1Home = () => {
+const Column2Home = () => {
 
     return (
         <>
@@ -55,4 +55,4 @@ const Row1Home = () => {
     )
 }
 
-export default Row1Home
+export default Column2Home

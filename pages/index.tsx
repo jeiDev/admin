@@ -1,6 +1,7 @@
 import Layout from "~/components/layouts"
-import Row1 from "~/components/pages/home/row-1"
-import Row2 from "~/components/pages/home/row-2"
+import Column1 from "~/components/pages/home/column1"
+import Column2 from "~/components/pages/home/column2"
+import Column3 from "~/components/pages/home/column3"
 
 const Profile = () => {
   return (
@@ -8,8 +9,9 @@ const Profile = () => {
       title="Home"
     >
       <div className="row">
-        <Row1 />
-        <Row2 />
+        <Column1 />
+        <Column2 />
+        <Column3 />
       </div>
     </Layout>
   )
