@@ -16,6 +16,7 @@ const WrappedApp: FC<AppProps> = (props) => {
     }, [])
 
     return (
+        //@ts-ignore
         <Context.Provider value={states}>
             <Component {...props} />
         </Context.Provider>
