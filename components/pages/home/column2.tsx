@@ -1,4 +1,5 @@
 import PercentageCard from "~/components/others/cards/percentage-card"
+import ShortList from "~/components/others/publications/short-list"
 
 const Column2Home = () => {
 
@@ -50,7 +51,34 @@ const Column2Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="col-lg-6"></div>
+            <div className="col-lg-6">
+                <ShortList 
+                    title="Publicaciones"
+                    items={[
+                        {
+                            title: "Mansion", 
+                            description: "Vendo mansion barata", 
+                            price:  12434,
+                            status: 1,
+                            image: "https://pix10.agoda.net/hotelImages/9065853/-1/142d78192fda46d5b58e14c9d3f2fe51.jpg?s=1024x768"
+                        },
+                        {
+                            title: "Mansion 2", 
+                            description: "Vendo mansion barata", 
+                            price:  12434,
+                            status: 0,
+                            image: "https://pix10.agoda.net/hotelImages/9065853/-1/142d78192fda46d5b58e14c9d3f2fe51.jpg?s=1024x768"
+                        },
+                        {
+                            title: "Mansion 3", 
+                            description: "Vendo mansion barata", 
+                            price:  12434,
+                            status: 0,
+                            image: "https://pix10.agoda.net/hotelImages/9065853/-1/142d78192fda46d5b58e14c9d3f2fe51.jpg?s=1024x768"
+                        }
+                    ]}
+                />
+            </div>
         </>
     )
 }
