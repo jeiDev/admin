@@ -26,7 +26,7 @@ class MyDocument extends Document {
             <Html>
                 <Head>
                     <meta name="theme-color" content={theme.palette.primary.main} />
-                    <link rel="shortcut icon" href="images/favicon.ico" />
+                    <link rel="shortcut icon" href="/images/favicon.ico" />
                     <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
                     <link rel="stylesheet" href="/assets/css/typography.css" />
                     <link rel="stylesheet" href="/assets/css/style.css" />

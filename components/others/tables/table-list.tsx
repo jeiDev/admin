@@ -46,7 +46,7 @@ const TableList = (props: TableListPropsI) => {
                             ))}
 
                             {/* <tr>
-                                <td><img src="images/user/02.jpg" alt="profile" className="img-fluid rounded avatar-40 text-center" /></td>
+                                <td><img src="/images/user/02.jpg" alt="profile" className="img-fluid rounded avatar-40 text-center" /></td>
                                 <td>Branding</td>
                                 <td>Anna Mull</td>
                                 <td>Corporate Presentation</td>
@@ -62,7 +62,7 @@ const TableList = (props: TableListPropsI) => {
                                 </td>
                             </tr>
                             <tr>
-                                <td><img src="images/user/03.jpg" alt="profile" className="img-fluid rounded avatar-40 text-center" /></td>
+                                <td><img src="/images/user/03.jpg" alt="profile" className="img-fluid rounded avatar-40 text-center" /></td>
                                 <td>Branding</td>
                                 <td>Anna Mull</td>
                                 <td>Graphic identity</td>
@@ -76,7 +76,7 @@ const TableList = (props: TableListPropsI) => {
                                 <td></td>
                             </tr>
                             <tr>
-                                <td><img src="images/user/04.jpg" alt="profile" className="img-fluid rounded avatar-40 text-center" /></td>
+                                <td><img src="/images/user/04.jpg" alt="profile" className="img-fluid rounded avatar-40 text-center" /></td>
                                 <td>Content</td>
                                 <td>Bob Frapples</td>
                                 <td>Release Demo</td>
@@ -92,7 +92,7 @@ const TableList = (props: TableListPropsI) => {
                                 </td>
                             </tr>
                             <tr>
-                                <td><img src="images/user/04.jpg" alt="profile" className="img-fluid rounded avatar-40 text-center" /></td>
+                                <td><img src="/images/user/04.jpg" alt="profile" className="img-fluid rounded avatar-40 text-center" /></td>
                                 <td>Content</td>
                                 <td>Bob Frapples</td>
                                 <td>Product Information</td>

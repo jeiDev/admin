@@ -20,7 +20,7 @@ const Header = (props: PropsLayoutI) => {
                             </div>
                             <div className="iq-navbar-logo d-flex justify-content-between ml-3">
                                 <a href="index.html" className="header-logo">
-                                    <img src="images/logo.png" className="img-fluid rounded" alt="" />
+                                    <img src="/images/logo.png" className="img-fluid rounded" alt="" />
                                     <span>FinDash</span>
                                 </a>
                             </div>
@@ -37,13 +37,13 @@ const Header = (props: PropsLayoutI) => {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav ml-auto navbar-list">
                                 <li className="nav-item">
-                                    <a className="search-toggle iq-waves-effect language-title" href="#"><span className="ripple rippleEffect" style={{ width: 98, height: 98, top: -15, left: 56.2969 }}></span><img src="images/small/flags/flag-01.png" alt="img-flaf" className="img-fluid mr-1" style={{ height: 16, width: 16 }} /> EN <i className="ri-arrow-down-s-line"></i></a>
+                                    <a className="search-toggle iq-waves-effect language-title" href="#"><span className="ripple rippleEffect" style={{ width: 98, height: 98, top: -15, left: 56.2969 }}></span><img src="/images/small/flags/flag-01.png" alt="img-flaf" className="img-fluid mr-1" style={{ height: 16, width: 16 }} /> EN <i className="ri-arrow-down-s-line"></i></a>
                                     <div className="iq-sub-dropdown">
-                                        <a className="iq-sub-card" href="#"><img src="images/small/flags/flag-02.png" alt="img-flaf" className="img-fluid mr-2" />French</a>
-                                        <a className="iq-sub-card" href="#"><img src="images/small/flags/flag-03.png" alt="img-flaf" className="img-fluid mr-2" />Spanish</a>
-                                        <a className="iq-sub-card" href="#"><img src="images/small/flags/flag-04.png" alt="img-flaf" className="img-fluid mr-2" />Italian</a>
-                                        <a className="iq-sub-card" href="#"><img src="images/small/flags/flag-05.png" alt="img-flaf" className="img-fluid mr-2" />German</a>
-                                        <a className="iq-sub-card" href="#"><img src="images/small/flags/flag-06.png" alt="img-flaf" className="img-fluid mr-2" />Japanese</a>
+                                        <a className="iq-sub-card" href="#"><img src="/images/small/flags/flag-02.png" alt="img-flaf" className="img-fluid mr-2" />French</a>
+                                        <a className="iq-sub-card" href="#"><img src="/images/small/flags/flag-03.png" alt="img-flaf" className="img-fluid mr-2" />Spanish</a>
+                                        <a className="iq-sub-card" href="#"><img src="/images/small/flags/flag-04.png" alt="img-flaf" className="img-fluid mr-2" />Italian</a>
+                                        <a className="iq-sub-card" href="#"><img src="/images/small/flags/flag-05.png" alt="img-flaf" className="img-fluid mr-2" />German</a>
+                                        <a className="iq-sub-card" href="#"><img src="/images/small/flags/flag-06.png" alt="img-flaf" className="img-fluid mr-2" />Japanese</a>
                                     </div>
                                 </li>
                                 <li className="nav-item nav-icon">
@@ -63,7 +63,7 @@ const Header = (props: PropsLayoutI) => {
                                                 <a href="#" className="iq-sub-card">
                                                     <div className="media align-items-center">
                                                         <div className="">
-                                                            <img className="avatar-40 rounded" src="images/user/01.jpg" alt="" />
+                                                            <img className="avatar-40 rounded" src="/images/user/01.jpg" alt="" />
                                                         </div>
                                                         <div className="media-body ml-3">
                                                             <h6 className="mb-0 ">Emma Watson Barry</h6>
@@ -75,7 +75,7 @@ const Header = (props: PropsLayoutI) => {
                                                 <a href="#" className="iq-sub-card">
                                                     <div className="media align-items-center">
                                                         <div className="">
-                                                            <img className="avatar-40 rounded" src="images/user/02.jpg" alt="" />
+                                                            <img className="avatar-40 rounded" src="/images/user/02.jpg" alt="" />
                                                         </div>
                                                         <div className="media-body ml-3">
                                                             <h6 className="mb-0 ">New customer is join</h6>
@@ -87,7 +87,7 @@ const Header = (props: PropsLayoutI) => {
                                                 <a href="#" className="iq-sub-card">
                                                     <div className="media align-items-center">
                                                         <div className="">
-                                                            <img className="avatar-40 rounded" src="images/user/03.jpg" alt="" />
+                                                            <img className="avatar-40 rounded" src="/images/user/03.jpg" alt="" />
                                                         </div>
                                                         <div className="media-body ml-3">
                                                             <h6 className="mb-0 ">Two customer is left</h6>
@@ -99,7 +99,7 @@ const Header = (props: PropsLayoutI) => {
                                                 <a href="#" className="iq-sub-card">
                                                     <div className="media align-items-center">
                                                         <div className="">
-                                                            <img className="avatar-40 rounded" src="images/user/04.jpg" alt="" />
+                                                            <img className="avatar-40 rounded" src="/images/user/04.jpg" alt="" />
                                                         </div>
                                                         <div className="media-body ml-3">
                                                             <h6 className="mb-0 ">New Mail from Fenny</h6>
@@ -126,7 +126,7 @@ const Header = (props: PropsLayoutI) => {
                                                 <a href="#" className="iq-sub-card">
                                                     <div className="media align-items-center">
                                                         <div className="">
-                                                            <img className="avatar-40 rounded" src="images/user/01.jpg" alt="" />
+                                                            <img className="avatar-40 rounded" src="/images/user/01.jpg" alt="" />
                                                         </div>
                                                         <div className="media-body ml-3">
                                                             <h6 className="mb-0 ">Barry Emma Watson</h6>
@@ -137,7 +137,7 @@ const Header = (props: PropsLayoutI) => {
                                                 <a href="#" className="iq-sub-card">
                                                     <div className="media align-items-center">
                                                         <div className="">
-                                                            <img className="avatar-40 rounded" src="images/user/02.jpg" alt="" />
+                                                            <img className="avatar-40 rounded" src="/images/user/02.jpg" alt="" />
                                                         </div>
                                                         <div className="media-body ml-3">
                                                             <h6 className="mb-0 ">Lorem Ipsum Watson</h6>
@@ -148,7 +148,7 @@ const Header = (props: PropsLayoutI) => {
                                                 <a href="#" className="iq-sub-card">
                                                     <div className="media align-items-center">
                                                         <div className="">
-                                                            <img className="avatar-40 rounded" src="images/user/03.jpg" alt="" />
+                                                            <img className="avatar-40 rounded" src="/images/user/03.jpg" alt="" />
                                                         </div>
                                                         <div className="media-body ml-3">
                                                             <h6 className="mb-0 ">Why do we use it?</h6>
@@ -159,7 +159,7 @@ const Header = (props: PropsLayoutI) => {
                                                 <a href="#" className="iq-sub-card">
                                                     <div className="media align-items-center">
                                                         <div className="">
-                                                            <img className="avatar-40 rounded" src="images/user/04.jpg" alt="" />
+                                                            <img className="avatar-40 rounded" src="/images/user/04.jpg" alt="" />
                                                         </div>
                                                         <div className="media-body ml-3">
                                                             <h6 className="mb-0 ">Variations Passages</h6>
@@ -170,7 +170,7 @@ const Header = (props: PropsLayoutI) => {
                                                 <a href="#" className="iq-sub-card">
                                                     <div className="media align-items-center">
                                                         <div className="">
-                                                            <img className="avatar-40 rounded" src="images/user/05.jpg" alt="" />
+                                                            <img className="avatar-40 rounded" src="/images/user/05.jpg" alt="" />
                                                         </div>
                                                         <div className="media-body ml-3">
                                                             <h6 className="mb-0 ">Lorem Ipsum generators</h6>
@@ -187,7 +187,7 @@ const Header = (props: PropsLayoutI) => {
                         <ul className="navbar-list">
                             <li className="line-height">
                                 <a href="#" className="search-toggle iq-waves-effect d-flex align-items-center">
-                                    <img src="images/user/1.jpg" className="img-fluid rounded mr-3" alt="user" />
+                                    <img src="/images/user/1.jpg" className="img-fluid rounded mr-3" alt="user" />
                                     <div className="caption">
                                         <h6 className="mb-0 line-height">Barry Tech</h6>
                                         <p className="mb-0">Manager</p>

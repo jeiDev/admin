@@ -10,7 +10,7 @@ const NewUsersTable = () => {
                 {
                     field: "Profile",
                     render: () => (
-                        <img src="images/user/02.jpg" alt="profile" className="img-fluid rounded avatar-40 text-center" />
+                        <img src="/images/user/02.jpg" alt="profile" className="img-fluid rounded avatar-40 text-center" />
                     )
                 },
                 {
