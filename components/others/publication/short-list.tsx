@@ -2,7 +2,7 @@ import { useState } from "react"
 import { ListPropsI, statusPublication } from "~/interfaces"
 import { comas } from "~/helpers/code/number.helper"
 
-const ShortList = ({ title, items }: ListPropsI) => {
+const PublicationShortList = ({ title, items }: ListPropsI) => {
     const [publications, setPublications] = useState(items)
 
     const handlerClick = (status: statusPublication, index: number) => {
@@ -53,4 +53,4 @@ const ShortList = ({ title, items }: ListPropsI) => {
     )
 }
 
-export default ShortList
+export default PublicationShortList

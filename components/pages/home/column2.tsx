@@ -1,5 +1,5 @@
 import PercentageCard from "~/components/others/cards/percentage-card"
-import ShortList from "~/components/others/publications/short-list"
+import PublicationShortList from "~/components/others/publication/short-list"
 
 const Column2Home = () => {
 
@@ -52,7 +52,7 @@ const Column2Home = () => {
                 </div>
             </div>
             <div className="col-lg-6">
-                <ShortList 
+                <PublicationShortList 
                     title="Publicaciones"
                     items={[
                         {
