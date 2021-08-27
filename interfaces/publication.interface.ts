@@ -1,0 +1,1 @@
+export type statusPublication = 0 | 1 | 2
