@@ -34,7 +34,7 @@ const Sidebar = () => {
                                 let subItems = childrens.length > 0
                                 let urls = `${url}`.split("/")
                                 let select = item.url == `/${urls[1]}`
-                                console.log(item.url)
+                              
                                 return (
                                     <li className={select ? "active active-menu" : ""} key={i}>
                                         <Sidebar.Link href={!subItems ? item.url : ""}>
